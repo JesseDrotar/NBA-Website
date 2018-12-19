@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	color:black;
+	margin: auto;
+}
+
+div {
+	display: grid;
+}
+
+p {
+	color: white;
+	margin: auto;
+}
