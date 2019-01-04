@@ -2,20 +2,77 @@
 
 <html>
 <head>
-	<link rel='stylesheet' type='text/css' href='stylesheet.css'>
-	<title>NBA</title>
+	<link rel='stylesheet' type='text/css' href='indexstyle.css'>
+	<title>NBA Website</title>
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js';></script>
-	<script src='./scripts/supportive_functions.js'></script>
-	<script src='./scripts/script.js'></script>
-	
 </head>
 <body>
-		<h1 id = 'teams'>Standings</h1>
+<div class="top-container">
+	<header>
+		MY NBA
+	</header>
+	<nav class="nav-bar">
+		<ul>
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./standings.html">Standings</a></li>
+			<li><a href="#">Teams</a>
+				<div class="mega-menu">
+					<div class="inner-mega-menu">
+						<a href="./teamroster.html?1610612737">Atlanta Hawks</a>
+						<a href="./teamroster.html?1610612738">Boston Celtics</a>
+						<a href="./teamroster.html?1610612751">Brooklyn Nets</a>
+						<a href='./teamroster.html?1610612766'>Charlotte Hornets</a>
+						<a href='./teamroster.html?1610612741'>Chicago Bulls</a>
+						<a href='./teamroster.html?1610612739'>Cleveland Cavaliers</a>
+					</div>
+					<div class="inner-mega-menu">
+						<a href='./teamroster.html?1610612742'>Dallas Mavericks</a>
+            			<a href='./teamroster.html?1610612743'>Denver Nuggets</a>
+						<a href='./teamroster.html?1610612765'>Detroit Pistons</a>
+						<a href='./teamroster.html?1610612744'>Golden State Warriors</a>
+						<a href='./teamroster.html?1610612745'>Houston Rockets</a>
+						<a href='./teamroster.html?1610612754'>Indiana Pacers</a>
+					</div>
+					<div class="inner-mega-menu">
+						<a href='./teamroster.html?1610612747'>Los Angeles Lakers</a>
+            			<a href='./teamroster.html?1610612746'>Los Angeles Clippers</a>
+						<a href='./teamroster.html?1610612763'>Memphis Grizzlies</a>
+						<a href='./teamroster.html?1610612748'>Miami Heat</a>
+						<a href='./teamroster.html?1610612749'>Milwaukee Bucks</a>
+						<a href='./teamroster.html?1610612750'>Minnesota Timberwolves</a>
+					</div>
+					<div class="inner-mega-menu">
+						<a href='./teamroster.html?1610612752'>New York Knicks</a>
+						<a href='./teamroster.html?1610612760'>Oklahoma City Thunder</a>
+            			<a href='./teamroster.html?1610612740'>New Orleans Pelicans</a>
+						<a href='./teamroster.html?1610612753'>Orlando Magic</a>
+						<a href='./teamroster.html?1610612755'>Philadelphia 76ers</a>
+						<a href='./teamroster.html?1610612756'>Pheonix Suns</a>
+					</div>
+					<div class="inner-mega-menu">
+						<a href='./teamroster.html?1610612757'>Portland Trailblazers</a>
+						<a href='./teamroster.html?1610612758'>Sacramento Kings</a>
+						<a href='./teamroster.html?1610612759'>San Antonio Spurs</a>
+						<a href='./teamroster.html?1610612761'>Toronto Raptors</a>
+						<a href='./teamroster.html?1610612762'>Utah Jazz</a>
+						<a href='./teamroster.html?1610612764'>Washington Wizards</a>
+					</div>
+				</div>
+			</li>
 
-		<button type='button' onclick='toggleEast()'>Eastern Conference Standings</button>
-		<button type='button' onclick='toggleWest()'>Western Conference Standings</button>
-		<div id = 'east_div'></div>
-		<div id ='west_div'></div>
+
+		</ul>	
+	</nav>
+
+</div>
+
+<div class = "content-container">
+	<div class="twitter-container">
+		<a class="twitter-timeline" data-lang="en" data-height="700px" data-theme="light" href="https://twitter.com/NBA">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+			
+</div>
+
 
 </body>
 </html>

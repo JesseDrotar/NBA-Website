@@ -1,0 +1,97 @@
+Atlanta Hawks 1610612737
+Boston Celtis 1610612738
+Brooklyn Nets 1610612751
+Charlotte Hornets 1610612766
+Chicago Bulls 1610612741
+Cleveland Cavaliers 1610612739
+Dallas Mavericks 1610612742
+Denver Nuggets 1610612743
+Detroit Pistons 1610612765
+Golden State Warriors 1610612744
+Houston Rockets 1610612745
+Indiana Pacers 1610612754
+LA Clippers 1610612746
+LA Lakers 1610612747
+Memphis Grizzlies 1610612763
+Miami Heat 1610612748
+Milwaukee Bucks 1610612749
+Minnesota Timberwolves 1610612750
+New Orleans Pelicans 1610612740
+New York Knicks 1610612752
+Oklahoma City Thunder 1610612760
+Orlando Magic 1610612753
+Philadelphia 76ers 1610612755
+Pheonix Suns 1610612756
+Portland Trailblazers 1610612757
+Sacramento Kings 1610612758
+San Antonio Spurs 1610612759
+Toronto Raptors 1610612761
+Utah Jazz 1610612762
+Washington Wizards 1610612764
+
+
+
+
+
+
+
+<div class="container">
+  		<nav class="nav-bar">
+    	<ul>
+      	<li>Teams
+        	<div class="mega-menu">
+          	<div class="inner-mega-menu">
+            	<li><a href="./teamroster.html?1610612737">Atlanta Hawks</a>
+						<li><a href="./teamroster.html?1610612738">Boston Celtics</a></li>
+						<li><a href="./teamroster.html?1610612751">Brooklyn Nets</a></li>
+						<li><a href='./teamroster.html?1610612766'>Charlotte Hornets</a></li>
+						<li><a href='./teamroster.html?1610612741'>Chicago Bulls</a></li>
+						<li><a href='./teamroster.html?1610612739'>Cleveland Cavaliers</a></li>
+						
+          	</div>
+          	<div class="inner-mega-menu">
+          		<li><a href='./teamroster.html?1610612742'>Dallas Mavericks</a></li>
+            	<li><a href='./teamroster.html?1610612743'>Denver Nuggets</a></li>
+						<li><a href='./teamroster.html?1610612765'>Detroit Pistons</a></li>
+						<li><a href='./teamroster.html?1610612744'>Golden State Warriors</a></li>
+						<li><a href='./teamroster.html?1610612745'>Houston Rockets</a></li>
+						<li><a href='./teamroster.html?1610612754'>Indiana Pacers</a></li>
+						
+          	</div>
+          	<div class="inner-mega-menu">
+          		<li><a href='./teamroster.html?1610612747'>L.A. Lakers</a></li>
+            	<li><a href='./teamroster.html?1610612746'>L.A. Clippers</a></li>
+						
+						<li><a href='./teamroster.html?1610612763'>Memphis Grizzlies</a></li>
+						<li><a href='./teamroster.html?1610612748'>Miami Heat</a></li>
+						<li><a href='./teamroster.html?1610612749'>Milwaukee Bucks</a></li>
+						<li><a href='./teamroster.html?1610612750'>Minnesota Timberwolves</a></li>
+						
+						
+          	</div>
+          	<div class="inner-mega-menu">
+          		<li><a href='./teamroster.html?1610612752'>New York Knicks</a></li>
+						<li><a href='./teamroster.html?1610612760'>Oklahoma City Thunder</a></li>
+            	<li><a href='./teamroster.html?1610612740'>New Orleans Pelicans</a></li>
+						
+						<li><a href='./teamroster.html?1610612753'>Orlando Magic</a></li>
+						<li><a href='./teamroster.html?1610612755'>Philadelphia 76ers</a></li>
+						<li><a href='./teamroster.html?1610612756'>Pheonix Suns</a></li>
+						
+          	</div>
+          	<div class="inner-mega-menu">
+            	<li><a href='./teamroster.html?1610612757'>Portland Trailblazers</a></li>
+						<li><a href='./teamroster.html?1610612758'>Sacramento Kings</a></li>
+						<li><a href='./teamroster.html?1610612759'>San Antonio Spurs</a></li>
+						<li><a href='./teamroster.html?1610612761'>Toronto Raptors</a></li>
+						<li><a href='./teamroster.html?1610612762'>Utah Jazz</a></li>
+						<li><a href='./teamroster.html?1610612764'>Washington Wizards</a></li>
+          	</div>
+        	</div>
+      	</li>
+      	<li>Home</li>
+      	<li>Standings</li>
+        </div>
+      </li>
+    </ul>
+  </nav>

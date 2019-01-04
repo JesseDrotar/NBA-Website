@@ -46,6 +46,8 @@ function getTeams(object, callback, conf) {
 		teamsObject[i].image_path = imagePaths[i];
 	}
 
+	console.log(teamsObject);
+
 	let standingsUrl = 'http://data.nba.net/10s/prod/v1/current/standings_conference.json'	
 	let xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -74,10 +76,7 @@ function parseStandings (object, dictionary, conf) {
 
 	let headerRow = document.createElement('thead');
 	document.getElementById(tableId).append(headerRow);
-	
-	/*for (let i =0; i <standingsObjectKeys.length; i++) {
-		headerRow.appendChild(document.createElement('th')).appendChild(document.createTextNode(standingsObjectKeys[i]));
-	}*/
+
 
 	headerRow.appendChild(document.createElement('th')).appendChild(document.createTextNode(''));
 	headerRow.appendChild(document.createElement('th')).appendChild(document.createTextNode('Team'));
@@ -109,7 +108,7 @@ function parseStandings (object, dictionary, conf) {
 
 				let teamLink = document.createElement('a');
 				teamLink.id = team_ID;
-				teamLink.href = ('./teamsTemplate.html?' + team_ID);
+				teamLink.href = ('./teamroster.html?' + team_ID);
 
 				teamLink.appendChild(cell);
 				tableData.appendChild(teamLink);

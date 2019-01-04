@@ -6,10 +6,12 @@ if(query.substring(0,1) == '?') {
 	query = query.substring(1);
 }
 
+console.log(query);
+
 let leaguePlayerUrl = 'http://data.nba.net/prod/v1/2018/players.json';
 let rosterUrl = `http://data.nba.net/prod/v1/2018/teams/${query}/roster.json` 
 
-
+console.log(rosterUrl);
 function playerNames(callback) {
 	let xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
