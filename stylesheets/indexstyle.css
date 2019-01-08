@@ -7,7 +7,7 @@
  
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color: #18bc9c;
+  background-color: #D8D8D8;
 }
 
 header {
@@ -131,17 +131,30 @@ float: left;
 
 }
 
-.content-container {
-	display: inline-block;
-}
+
 
 .twitter-container {
 	float:right;
 	width: 25%;
 }
 
-#test {
-	display: none;
+#scoreboard {
+	float: left;
+	width: 75%;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+#scoreboard td, th{
+	color: #2c3e50;
+	padding: 10px;
+	margin: 0;
+	background-color: white;
+	font-weight: bold;
+}
+
+#scoreboard th {
+	column-span: 2;
 }
 
 
