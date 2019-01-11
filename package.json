@@ -1,0 +1,23 @@
+{
+  "name": "nba-website",
+  "version": "1.0.0",
+  "description": "NBA API Website",
+  "main": "test.js",
+  "dependencies": {
+    "jest": "^23.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseDrotar/NBA-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseDrotar/NBA-Website/issues"
+  },
+  "homepage": "https://github.com/JesseDrotar/NBA-Website#readme"
+}
